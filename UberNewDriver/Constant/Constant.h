@@ -35,7 +35,7 @@
 #define Google_Map_Server_Key @"AIzaSyDTdXrdBfdjBBCiRienAEPunX5PMtsQwx0"
 
 
-#define API_URL @"http://ridex.allstarsoftwareinc.com/"
+#define API_URL @"https://ride.blazeride.com/"
 
 #define TERM_OF_USE_URL @""
 #define PRIVACY_URL @""
