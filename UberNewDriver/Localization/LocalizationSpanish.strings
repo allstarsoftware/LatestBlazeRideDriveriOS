@@ -1,0 +1,210 @@
+/* 
+  LocalizationSpanish.strings
+  TaxiAppz Driver
+
+  Created by Spextrum on 10/12/16.
+  Copyright © 2016 Deep Gami. All rights reserved.
+*/
+//Spanish
+
+"REGISTER_FAIL" = "Registro Falló";
+"REGISTER_SUCCESS" = "Gracias por registrarse. Espere mientras la administracion aprueba su solicitud.";
+"SIGNING_SUCCESS" = "Bienvenido ";
+"CAM_NOT_AVAILABLE" = "Camera Not Available";
+"SIGNIN_FAILED" = "Login Falló, Por favor trate denuevo";
+"NO_INTERNET" = "Internet no disponible";
+"No Internet" = "Internet no disponible";
+"SENDING MAIL" = "Sending mail";
+"OK" = "OK";
+"LOADING" = "Cargando";
+"Terms & Conditions" = " Terms & Conditions";
+"PLEASE_WAIT"="Espere por favor...";
+
+///// SliderVC
+//" profile"="  Perfil";
+" profile"=" profile";
+//" history"="  Historia";
+" history"=" history";
+"Payment"="  Pago";
+" settings"=" settings";
+"Promotions"="  Promociones";
+"Referral" = " Referral";
+"Logout"="  Salir del Sistema";
+"Logout Msg"="Esta seguro que quiere salir del sistema ?";
+"Yes"="Sí";
+"No"="No";
+"Select_language"="Reinicie la aplicación para que los cambios surtan efecto";
+"Alert"="Alerta";
+
+// SIGNIN VC
+
+"SIGN_IN" = "Por favor, espere mientras se inicie sesión";
+"SIGN UP" = " Registrate";
+"Sign In" = "  Acceder";
+"SIGN IN" = "Acceder";
+"REGISTER" = "Registrarse";
+"FORGOT_PASSWORD" = " Olvidó Clave ?";
+"SEND PASSWORD" = "Enviar contraseña";
+"EMAIL" = "Correo";
+"PASSWORD" = "Clave";
+"CONFIRM PASSWORD" = "Confirmado Clave";
+
+//"FORGOT_PASSWORD" = "FORGOT_PASSWORD";
+
+"Register" = "  Registrarse";
+"or" = "or";
+"FIRST NAME" = "Nombre";
+"LAST NAME" = "Apellido";
+"NUMBER" = "Numero";
+"TYPE" = "Tipo";
+"ADDRESS"="Direccion";
+"BIO"="BIO";
+"TAXI MODEL"="Modelo de taxi";
+"TAXI NUMBER"="Modelo de taxi";
+"ZIPCODE" = "Codigo postal";
+"SELECT YOUR VEHICLE" = "SELECCIONE SU VEHICULO";
+"I agree to the terms and conditions" = "I agree to the terms and conditions";
+"Cancel" = "Cancel";
+"Done"="Done";
+"Take Photo" = "SELECCIONE FOTO";
+"Select Image" = "seleccionar la imagen";
+
+"INFO"="Please verify fields mark with info sign,you will not be unable to modify these fields in future.";
+"INFO_EMAIL"="Por favor verifique su correo, usted no podra modificar este en el futuro.";
+"INFO_TAXI_NUMBER"="Por favor verifique su Numero de Taxi, usted no podra modificar este en el futuro.";
+"INFO_TAXI_MODEL"="Please verify model of your car,you will not be able to modify it in future.";
+
+//PickMeUp VC
+
+"WAITING_ADMIN_APPROVE" = "Waiting";
+"MENU" = "   Menu";
+"ACCEPT" = "ACEPTAR";
+"REJECT" = "Rechazar";
+"REQUEST_ACCEPTED" = "Requset Accepted";
+"REQUEST_REJECTED" = "Requset Rejected";
+"YOU ARE NOT APPROVED BY ADMIN" = "Your application is under review by admin.You will receive confirmation email once admin approves your application.";
+
+
+//Arrived MapVC
+
+"WAITING_WALKER_START" = "Esperando  al proveedor para empezar";
+"WAITING_TRIP_START" = "Esperando para empezar el viaje";
+"WAITING_TRIP_COMPLETE" = "Proveedor ha comenzado a venir hacia ti";
+"WALKER_STARTED" = "Proveedor ha comenzado a venir hacia ti";
+"WALKER_ARRIVED" = "Proveedor haya llegado a su lugar";
+"WALK_STARTED" = "Su viaje ha iniciado";
+"JOB_DONE" = "Su viaje esta completado";
+"CALL USER" = "CALL USER";
+"TAP WHEN STARTED" = "Toque para Iniciar";
+"TAP WHEN ARRIVED" = "Toque cuando Llegue";
+"START TRIP" = "Iniciar Viaje";
+"END TRIP" = "Finalizar Viaje";
+"CONFIRM" = "Confirmar";
+"Feedback" = " Retroalimentación";
+"SUBMIT" = "Aceptar";
+"COMMENT" = "Comentario";
+"CASH" = "Efectivo";
+"CARD" = "Tarjeta";
+"Please collect cash from client for your trip" = "Por favor recoger el dinero correspondiente al viaje";
+"ENTER"="Enter";
+"Enter_reject_reason"="Enter Rejection reason";
+
+//FeedbackVC
+
+"WAITING_FOR_FEEDBACK" = "Cargando";
+"RATING_COMPLETED" = "Gracias por su Retroalimentacion";
+"kms" = "kms";
+"Miles" = "Miles";
+"Mins" = "minutos";
+"COMMENTS" = "Comentario";
+"PLEASE_RATINGS"="Por favor evalue el Pasajero";
+
+
+// HIstory VC
+
+"LOADING_HISTORY" = "Ver Historia";
+"History" = "Historia";
+"Invoice" = "Factura";
+"BASE PRICE" = "Precio Base";
+"DISTANCE COST" = "Precio por Distancia";
+"PROMO BONUS" = "Bono por Promocion";
+"REFERRAL BONUS" = "Bono por Referencia";
+"per mile" = "por mile";
+"per mins" = "por minuntos";
+"TIME COST" = "Precio por Tiempo";
+"Total Due" = "Total a pagar";
+"CLOSE" = "Cerrado";
+"PHONE" = "Telefono";
+"ADDRESS" = "Direccion";
+"ZIPCODE" = "Codigo Postal";
+"Contact Us" = " Contact Us";
+"Are Sure You want to log Out" = "Seguro que desea Salir?";
+
+
+// Profile VC
+
+"UPDATING_PROFILE" = "Actualizando el Perfil, Espere por favor ...";
+"PROFILE" = "Perfil";
+"PROFILE_UPDATED" = "Profile is updated successfully";
+"NAME" = "Nombre";
+"NEW PASSWORD" = "Clave nueva";
+"CURRENT PASSWORD" = "Clave actual";
+"CONFIRM NEW PASSWORD" = "Confirme su clave nueva";
+"Edit Profile" = "Editar el Perfil";
+"Update Profile" = "Actualizar el Perfil";
+"This field is not editable."="Este campo no se puede editar.";
+
+//Forgot Password
+
+"PASSWORD_SENT_SUCCESS" = "Clave enviada a su correo registrado";
+"ERROR"="Oops ! An error occured, Please try again.";
+
+
+//Setting VC
+
+"AVAILABILITY_UODATE"="Su disponibilidad se ha actualizado";
+"Setting" = " Parametro";
+"Settings" = " Parametro";
+"Available to drive?" = "Disponible para conducir?";
+"Sound" = "Sonar";
+"YES" = "Sí";
+"NO" = "NO";
+"ON" = "en";
+"OFF" = "apagado";
+"Share" = " Compartalo";
+"Contact Us" = "Contact Us";
+"Logout" = " Salir";
+
+// Register VC
+
+"PLEASE_FIRST_NAME"="Por favor entre su primer Nombre.";
+"PLEASE_LAST_NAME"="Por favor entre su segundo Nombre.";
+"PLEASE_NAME"="Por favor entre su Nombre.";
+"PLEASE_BIRTHDATE"="Please enter a birthdate.";
+"PLEASE_EMAIL"="Por favor entre su email ID.";
+"PLEASE_NUMBER"="Por favor entre Numero de Telefono.";
+"PLEASE_PASSWORD"="Por favor entre su Clave.";
+"PLEASE_RETYPE_PASSWORD"="Please retype a password.";
+"NOT_MATCH_RETYPE"="Clave y confirmacion de clave no coinciden.";
+"PLEASE_TAXI_MODEL" = "Por favor entre el Modelo del Taxi.";
+"PLEASE_TAXI_NUMBER" = "Por favor entre el Numero de Taxi.";
+"PLEASE_NUMBER_MIN" = "Please enter atleast 10 digits in phone no.";
+
+"PLEASE_VALID_EMAIL"="Por favor entre un correo electronico.";
+"REGISTER_SUCCESS"="Usted ha sido registrado exitosamente!";
+"REGISTER_FAIL"="Registro Falló. Por favor trate denuevo.";
+"Please Select Profile Picture" = "Por favor seleccione foto para perfil";
+"Please Select Service Type" = "Seleccione un tipo de Vehiculo";
+"Please Wait" = "Espere por favor";
+"Today" = "Hoy";
+"Yesterday" = "Ayer";
+
+
+// Logout
+"WAITING_LOGOUT" = "Esperando para Salir";
+"LOGED_OUT" = "Desconectado";
+"Request Canceled" = "Solicitud Cancelado";
+
+
+
+
