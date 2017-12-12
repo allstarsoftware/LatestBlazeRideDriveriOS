@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Blaze driver</string>
+	<string>Blaze Driver</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIcons</key>
@@ -56,7 +56,7 @@
 	<key>FacebookAppID</key>
 	<string>838868979485415</string>
 	<key>FacebookDisplayName</key>
-	<string>RideKangaroo Driver</string>
+	<string>Blaze Driver</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>

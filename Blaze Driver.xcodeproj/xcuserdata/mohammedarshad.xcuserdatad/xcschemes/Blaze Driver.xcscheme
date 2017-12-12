@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0484A05C19D6821F00C94F51"
-               BuildableName = "RideKangaroo Driver.app"
-               BlueprintName = "RideKangaroo Driver"
-               ReferencedContainer = "container:RideKangaroo Driver.xcodeproj">
+               BuildableName = "Blaze Driver.app"
+               BlueprintName = "Blaze Driver"
+               ReferencedContainer = "container:Blaze Driver.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0484A05C19D6821F00C94F51"
-            BuildableName = "RideKangaroo Driver.app"
-            BlueprintName = "RideKangaroo Driver"
-            ReferencedContainer = "container:RideKangaroo Driver.xcodeproj">
+            BuildableName = "Blaze Driver.app"
+            BlueprintName = "Blaze Driver"
+            ReferencedContainer = "container:Blaze Driver.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0484A05C19D6821F00C94F51"
-            BuildableName = "RideKangaroo Driver.app"
-            BlueprintName = "RideKangaroo Driver"
-            ReferencedContainer = "container:RideKangaroo Driver.xcodeproj">
+            BuildableName = "Blaze Driver.app"
+            BlueprintName = "Blaze Driver"
+            ReferencedContainer = "container:Blaze Driver.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0484A05C19D6821F00C94F51"
-            BuildableName = "RideKangaroo Driver.app"
-            BlueprintName = "RideKangaroo Driver"
-            ReferencedContainer = "container:RideKangaroo Driver.xcodeproj">
+            BuildableName = "Blaze Driver.app"
+            BlueprintName = "Blaze Driver"
+            ReferencedContainer = "container:Blaze Driver.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
