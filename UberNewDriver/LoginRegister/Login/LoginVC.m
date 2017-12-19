@@ -291,7 +291,7 @@
     {
         NSLog(@"Notification Disabled");
         // no
-        UIAlertView *alertLocation=[[UIAlertView alloc]initWithTitle:@"" message:@"Please Enable Push Notification access from Settings -> RideKangaroo Driver -> Privacy -> Push Notification services" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        UIAlertView *alertLocation=[[UIAlertView alloc]initWithTitle:@"" message:@"Please Enable Push Notification access from Settings -> Blaze Driver -> Privacy -> Push Notification services" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [alertLocation show];
         return;
         

@@ -158,7 +158,7 @@
     {
         NSLog(@"shareButton pressed");
         
-        NSString *texttoshare = [NSString stringWithFormat:@"I am using RideKangaroo Driver App ! Why don't you try it out... Install RideKangaroo Driver now ! "]; //this is your text string to share
+        NSString *texttoshare = [NSString stringWithFormat:@"I am using Blaze Driver App ! Why don't you try it out... Install Blaze Driver now ! "]; //this is your text string to share
         //UIImage *imagetoshare = @""; //this is your image to share
         NSArray *activityItems = @[texttoshare];
         
