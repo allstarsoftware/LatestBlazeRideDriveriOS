@@ -53,6 +53,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIAlertController * alert=[UIAlertController alertControllerWithTitle:@"Alert!"
+                                                                  message:@"Blaze Driver would need users to provide gender information."
+                                                           preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction* okButton = [UIAlertAction actionWithTitle:@"OK"
+                                                           style:UIAlertActionStyleDefault
+                                                         handler:^(UIAlertAction * action)
+                                   {
+                                       [alert dismissViewControllerAnimated:YES completion:nil];
+                                   }];
+    UIAlertAction* cancelButton = [UIAlertAction actionWithTitle:@"Cancel"
+                                                           style:UIAlertActionStyleDefault
+                                                         handler:^(UIAlertAction * action)
+                                   {
+                                       [self.navigationController popViewControllerAnimated:YES];
+                                   }];
+
+    [alert addAction:okButton];
+    [alert addAction:cancelButton];
+    [self presentViewController:alert animated:YES completion:nil];
     strTypename=@"";
     [super setBackBarItem];
     [[FacebookUtility sharedObject]logOutFromFacebook];
@@ -89,9 +108,6 @@
     [self.btnSelectService setTitle:NSLocalizedStringFromTable(@"SELECT YOUR VEHICLE",[prefl objectForKey:@"TranslationDocumentName"],nil) forState:UIControlStateNormal];
 
     [self localizeString];
-    
-    //self.navigationController.navigationBarHidden=NO;
-    
 }
 
 -(IBAction)genderBtnPressed:(id)sender
@@ -187,9 +203,9 @@
     self.btnRegister=[APPDELEGATE setBoldFontDiscriptor:self.btnRegister];
      */
 }
+
 -(void)localizeString
 {
-    
     self.txtEmail.placeholder = NSLocalizedStringFromTable(@"EMAIL",[prefl objectForKey:@"TranslationDocumentName"], nil);
     self.txtPassword.placeholder = NSLocalizedStringFromTable(@"PASSWORD",[prefl objectForKey:@"TranslationDocumentName"], nil);
     self.txtRePassword.placeholder = NSLocalizedStringFromTable(@"CONFIRM PASSWORD",[prefl objectForKey:@"TranslationDocumentName"], nil);
@@ -229,7 +245,7 @@
                  if (success)
                  {
                      NSLog(@"Success");
-                     appDelegate = [UIApplication sharedApplication].delegate;
+                     appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
                      [appDelegate userLoggedIn];
                      [[FacebookUtility sharedObject]fetchMeWithFBCompletionBlock:^(id response, NSError *error) {
                          if (response) {
@@ -255,7 +271,7 @@
         else{
             [APPDELEGATE hideLoadingView];
             NSLog(@"User Login Click");
-            appDelegate = [UIApplication sharedApplication].delegate;
+            appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
             [[FacebookUtility sharedObject]fetchMeWithFBCompletionBlock:^(id response, NSError *error) {
                 if (response) {
                     NSLog(@"%@",response);
@@ -464,8 +480,8 @@
                              {
                                  RMUserDetails *getrooms = [RMMapper objectWithClass:[RMUserDetails class] fromDictionary:response];
                                  NSLog(@"GetDate: %@",getrooms.driver);
-                                 NSDictionary *getDict = (NSDictionary *) getrooms.driver;
-                                 RMUser *getUser = [RMMapper objectWithClass:[RMUser class] fromDictionary:getDict];
+                                // NSDictionary *getDict = (NSDictionary *) getrooms.driver;
+                                // RMUser *getUser = [RMMapper objectWithClass:[RMUser class] fromDictionary:getDict];
                                  
                                  
                                  /*
@@ -517,8 +533,8 @@
                              {
                                  RMUserDetails *getrooms = [RMMapper objectWithClass:[RMUserDetails class] fromDictionary:response];
                                  NSLog(@"GetDate: %@",getrooms.driver);
-                                 NSDictionary *getDict = (NSDictionary *) getrooms.driver;
-                                 RMUser *getUser = [RMMapper objectWithClass:[RMUser class] fromDictionary:getDict];
+                                // NSDictionary *getDict = (NSDictionary *) getrooms.driver;
+                                 //RMUser *getUser = [RMMapper objectWithClass:[RMUser class] fromDictionary:getDict];
                                  
                                 /*
                                  Mysingletonclass *tmp = [Mysingletonclass sharedSingleton];
@@ -922,7 +938,7 @@
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    CarTypeCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cartype" forIndexPath:indexPath];
+    //CarTypeCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cartype" forIndexPath:indexPath];
 
     NSMutableDictionary *dictType=[arrType objectAtIndex:indexPath.row];
     if([[dictType valueForKey:@"name"] isEqual:@"Pink"] && _femaleBtnSelected==NO)

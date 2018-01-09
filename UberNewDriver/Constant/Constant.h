@@ -31,8 +31,8 @@
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT,0)
 //#define GOOGLE_KEY_NEW @"AIzaSyCLDSZl4y2CfTWwPzJ933jS2X5jOpDFkEI"
 
-#define Google_Map_API_Key @"AIzaSyCm5KPAkfY861LBkm5SIAFyUg4ZXuPNX-0"
-#define Google_Map_Server_Key @"AIzaSyDTdXrdBfdjBBCiRienAEPunX5PMtsQwx0"
+#define Google_Map_API_Key @"AIzaSyAmhdoLXRCSo_F-wKtl1YcpXQyeS2Dyj3o"
+#define Google_Map_Server_Key @"AIzaSyAMp3jT7wfnA8RzmCl35uQ3xh86TL_Bgb4"
 
 
 #define API_URL @"https://ride.blazeride.com/"

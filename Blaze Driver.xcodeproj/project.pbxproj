@@ -211,7 +211,6 @@
 		3CC78C951ABACF8D00B29597 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC78C941ABACF8D00B29597 /* OpenGLES.framework */; };
 		3CC78C971ABACFE100B29597 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC78C961ABACFE100B29597 /* QuartzCore.framework */; };
 		3CC78C991ABACFF000B29597 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC78C981ABACFF000B29597 /* SystemConfiguration.framework */; };
-		F807603E1F31AB6F00910270 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F807603D1F31AB6F00910270 /* GoogleService-Info.plist */; };
 		F82E37DD1F47076200B3B095 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82E37DC1F47076200B3B095 /* UserNotifications.framework */; };
 		F82E37DF1F47076A00B3B095 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82E37DE1F47076A00B3B095 /* UserNotificationsUI.framework */; };
 		F8481DE01E8503C600523937 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8481DDE1E8503C600523937 /* MZTimerLabel.m */; };
@@ -232,6 +231,7 @@
 		F8F368F51EA5112C00A1D731 /* MCPercentageDoughnutView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F368EE1EA5112C00A1D731 /* MCPercentageDoughnutView.m */; };
 		F8F368F61EA5112C00A1D731 /* MCSliceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F368F01EA5112C00A1D731 /* MCSliceLayer.m */; };
 		F8F368F71EA5112C00A1D731 /* MCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F368F21EA5112C00A1D731 /* MCUtil.m */; };
+		FF32E4862003A48500FD7C5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF32E4852003A48500FD7C5D /* GoogleService-Info.plist */; };
 		FF80378D1FA7430200AB91A7 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = FF80378C1FA7430200AB91A7 /* uncheck.png */; };
 		FF80378F1FA7430800AB91A7 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = FF80378E1FA7430800AB91A7 /* check.png */; };
 /* End PBXBuildFile section */
@@ -546,7 +546,6 @@
 		3CC78C941ABACF8D00B29597 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		3CC78C961ABACFE100B29597 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3CC78C981ABACFF000B29597 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F807603D1F31AB6F00910270 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F82E37DC1F47076200B3B095 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		F82E37DE1F47076A00B3B095 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		F8481DDD1E8503C600523937 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
@@ -575,6 +574,7 @@
 		F8F368F01EA5112C00A1D731 /* MCSliceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSliceLayer.m; sourceTree = "<group>"; };
 		F8F368F11EA5112C00A1D731 /* MCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUtil.h; sourceTree = "<group>"; };
 		F8F368F21EA5112C00A1D731 /* MCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUtil.m; sourceTree = "<group>"; };
+		FF32E4852003A48500FD7C5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF80378C1FA7430200AB91A7 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
 		FF80378E1FA7430800AB91A7 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		FF964E211FDFB561005D21AB /* Blaze Driver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Blaze Driver.entitlements"; sourceTree = "<group>"; };
@@ -742,7 +742,7 @@
 		0484A06719D6821F00C94F51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F807603D1F31AB6F00910270 /* GoogleService-Info.plist */,
+				FF32E4852003A48500FD7C5D /* GoogleService-Info.plist */,
 				049D3E6C19E6A34C0039E9FC /* countrycodes.json */,
 				0484A06819D6821F00C94F51 /* Blaze Driver-Info.plist */,
 				0484A06919D6821F00C94F51 /* InfoPlist.strings */,
@@ -1396,6 +1396,7 @@
 				FF80378F1FA7430800AB91A7 /* check.png in Resources */,
 				1FFBAEFA1A075FB900F21278 /* ub__button_black_pressed.png in Resources */,
 				1FFBAF1A1A07786200F21278 /* accebt_btn_bg_pressed.png in Resources */,
+				FF32E4862003A48500FD7C5D /* GoogleService-Info.plist in Resources */,
 				1FAE8E4A1A2D7CFB006EE5B5 /* locateme.png in Resources */,
 				1FF6BC771A088F270062DBDD /* reject_btn_bg_pressed.png in Resources */,
 				1FB00FEE19F27907003D3A5F /* loading_2@2x.png in Resources */,
@@ -1416,7 +1417,6 @@
 				1FFBAF151A07772C00F21278 /* nf.png in Resources */,
 				1FB00FEF19F27907003D3A5F /* loading_3.png in Resources */,
 				1FFBAF1D1A077AF900F21278 /* time.png in Resources */,
-				F807603E1F31AB6F00910270 /* GoogleService-Info.plist in Resources */,
 				F8A3EB561E7AA31800A9BB4D /* LaunchScreen.storyboard in Resources */,
 				1FB7724B1A1716640016ED6A /* GooglePlus.bundle in Resources */,
 				3C34DE041B01C1CD00742572 /* beep-05.mp3 in Resources */,
